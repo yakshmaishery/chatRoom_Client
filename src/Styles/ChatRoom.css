@@ -1,0 +1,29 @@
+.chatcontrol{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: auto 20vw 10vw;
+    margin: 1%;
+    width: 98%;
+}
+
+#chatBodyid{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.chat-items{
+    width: fit-content;
+}
+
+.userchat{
+    display: flex;
+    align-self: flex-end;
+    justify-content: right;
+}
+
+.chattime{
+    font-size: 11px;
+    margin: 4px;
+}
